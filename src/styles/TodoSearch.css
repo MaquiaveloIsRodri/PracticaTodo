@@ -1,0 +1,24 @@
+div{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.search{
+    margin: auto;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid DodgerBlue
+
+}
+.search :placeholder{
+    color:rgb(65, 65, 126);
+}
+
+.search:hover{
+    width: 190px;
+    height: 35px;
+    transition: 0.6s;
+    box-shadow: 1px 1px 15px 1px DodgerBlue;
+}

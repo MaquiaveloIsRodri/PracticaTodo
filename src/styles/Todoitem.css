@@ -1,0 +1,53 @@
+:root{
+    --logoBlack:background-image: url(../img/checkBlack.png);
+    /*--logoGreen*/
+    
+}
+.li{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 80px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    border: 3px solid dodgerblue;
+    position: relative;
+}
+.li:hover{
+    background-color: rgb(224, 224, 224);
+    box-shadow: 1px 1px 15px 1px DodgerBlue;
+}
+.checkBlack{
+    align-self: center;
+    object-fit: contain;
+    display: inline-block;
+    cursor: pointer;
+    width: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-image: url(../img/checkBlack.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.clouse{
+    top: -25px;
+    right: 20px;
+    font-size: 2rem;
+    font-weight: bolder;
+    position: absolute;
+}
+.clouse:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.checkBlack--active {
+    background-image: url(../img/checkGreen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

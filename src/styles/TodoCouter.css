@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+}
+.nav-title{
+    text-align: center;
+
+}
+.nav-sutitle{
+    text-align: center;
+    color: wheat;
+}
+.destacados{
+    color:DodgerBlue ;
+}
+@media screen and (max-width:375px){
+    .nav{
+        justify-self: center;
+    }
+    .nav-title{
+        justify-self: center;
+    
+    }
+    .nav-sutitle{
+        justify-self: center;
+    }
+}

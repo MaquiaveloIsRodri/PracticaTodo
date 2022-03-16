@@ -1,0 +1,41 @@
+section{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(300px , 600px));
+    justify-content: center;
+    justify-items: center;
+    
+}
+.section-imagen{
+    object-fit: cover;
+    margin-top: 20px;
+    width: 18vw;
+    justify-self: center;
+    transform: rotate(-8deg);
+    align-self: flex-start;
+
+}
+.section-imagen:hover{
+    transition: 1s;
+    transform: rotate(8deg)
+
+}
+.section-container{
+    justify-self: center;
+}
+.section-container ul{
+    list-style: none;
+    
+}
+@media screen and (max-width:575px){
+    section{
+        grid-template-columns: 250px;
+    }
+    .section-imagen{
+        width: 140px;
+    }
+}
+@media screen and (max-width:768px){
+    .section-imagen{
+        width: 140px;
+    }
+}
