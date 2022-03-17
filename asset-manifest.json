@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PracticaTodo/static/css/main.1c6807ff.css",
+    "main.js": "/PracticaTodo/static/js/main.7687274d.js",
+    "static/media/imagen.png": "/PracticaTodo/static/media/imagen.d0093ef4ca2a8fd11593.png",
+    "index.html": "/PracticaTodo/index.html",
+    "main.1c6807ff.css.map": "/PracticaTodo/static/css/main.1c6807ff.css.map",
+    "main.7687274d.js.map": "/PracticaTodo/static/js/main.7687274d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c6807ff.css",
+    "static/js/main.7687274d.js"
+  ]
+}
